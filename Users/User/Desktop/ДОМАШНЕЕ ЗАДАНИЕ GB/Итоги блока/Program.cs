@@ -12,6 +12,6 @@ internal class Program
         "Она", "с", "улыбкой", "повернулась", "к", "жениху", "и", "повторила:", "Да", "я", "согласна", ":-)" };
         var result = ArrText.Where(p => p.Length <= 3);
         foreach (string text in result)
-            Console.Write($" {text}");    
+            Console.Write($" {text}");   
     }
 }
