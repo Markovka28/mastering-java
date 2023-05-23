@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\bin\Debug\net7.0\PiramidaSort.exe
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\bin\Debug\net7.0\PiramidaSort.deps.json
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\bin\Debug\net7.0\PiramidaSort.runtimeconfig.json
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\bin\Debug\net7.0\PiramidaSort.dll
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\bin\Debug\net7.0\PiramidaSort.pdb
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.AssemblyInfo.cs
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.dll
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\refint\PiramidaSort.dll
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.pdb
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\PiramidaSort.genruntimeconfig.cache
+C:\Users\User\Desktop\ДЗ GB\! Алгоритмы\PiramidaSort\obj\Debug\net7.0\ref\PiramidaSort.dll
