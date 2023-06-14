@@ -39,3 +39,33 @@ def print_operation_table(operation, num_rows, num_columns):
             print(operation(i, j), end=' ')
 print_operation_table(lambda x, y: x * y, 6, 6)
  """
+"""  
+from random import randint
+r = int(input('количество строк: '))
+c = int(input('количество столбцов: '))
+total = [[randint(10, 99) for j in range(c)] for i in range(r)]
+import numpy as np
+x = np.array(total)
+print(*x, sep='\n')
+print (x[1][1])
+ """
+ 
+# input_str = input('Пожалуйста, предоставьте входные данные\n')
+# delimiter = input('Пожалуйста, укажите текущий разделитель\n') 
+# delimiter_new = input('Пожалуйста, укажите новый разделитель\n') 
+# output_str = input_str.replace(delimiter, delimiter_new) 
+# print('Обновленные данные =', output_str)
+
+# f = open('Телефонный справочник.txt', 'r')
+# print(f.read())
+# f.close()
+
+# import mmap
+# with open('Телефонный справочник.txt', 'rb+') as f:
+#     s = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)
+#     if s.find('blabla') != -1:
+#         print('true')
+ 
+ 
+
+ 
