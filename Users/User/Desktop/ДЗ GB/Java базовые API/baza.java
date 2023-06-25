@@ -1,16 +1,10 @@
-//1) Вычислить n-ое треугольного число (сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
-import java.util.Scanner;
+// Вывести все простые числа от 1 до 1000
 public class baza {
     public static void main(String[] args) {
-        try (Scanner console = new Scanner(System.in)) {
-            System.out.print("Введите число: ");
-            int f = console.nextInt();
-            int factorial = f;
-            for (int i = (f - 1); i > 1; i--) {
-                factorial *= i;
+        for (int i = 2; i <= 1000; i++) { // Простым числом называют такое натуральное число,
+            if (i % 1 == 0 || i % i == 0) { // которое > 1 и делится только на 1 и само на себя
+                System.out.print(i + ", ");
             }
-            System.out.printf("Факториал введенного числа = " + factorial);
         }
     }
 }
-    
