@@ -1,10 +1,33 @@
-// Вывести все простые числа от 1 до 1000
+// Реализовать простой калькулятор
+
+import java.util.Scanner;
+
 public class baza {
     public static void main(String[] args) {
-        for (int i = 2; i <= 1000; i++) { // Простым числом называют такое натуральное число,
-            if (i % 1 == 0 || i % i == 0) { // которое > 1 и делится только на 1 и само на себя
-                System.out.print(i + ", ");
-            }
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Введите 1е и 2е число -");
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            System.out.print("Выберите и введите тип операции которую необходимо выполнить (+, -, *, /, %)- ");
+            char op = sc.next().charAt(0);
+            solve(a, b, op);
         }
+    }
+
+    public static int solve(int a, int b, char op) {
+        int ans = 0;
+        if (op == '+') {
+            ans = a + b;
+        } else if (op == '-') {
+            ans = a - b;
+        } else if (op == '*') {
+            ans = a * b;
+        } else if (op == '%') {
+            ans = a % b;
+        } else if (op == '/') {
+            ans = a / b;
+        }
+        System.out.println("Получается: - " + ans);
+        return ans;
     }
 }
